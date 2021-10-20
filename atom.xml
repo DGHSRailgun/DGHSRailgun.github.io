@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-10-20T03:01:09.593Z</updated>
+  <updated>2021-10-20T03:28:31.801Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,13 +17,13 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>英雄联盟不加载WeGame方法</title>
-    <link href="http://example.com/2021/10/19/Deny_Wegame/"/>
-    <id>http://example.com/2021/10/19/Deny_Wegame/</id>
-    <published>2021-10-20T02:44:15.000Z</published>
-    <updated>2021-10-20T03:01:09.593Z</updated>
+    <title>Deny_Wegame</title>
+    <link href="http://example.com/2021/10/19/Deny-Wegame/"/>
+    <id>http://example.com/2021/10/19/Deny-Wegame/</id>
+    <published>2021-10-20T03:16:31.000Z</published>
+    <updated>2021-10-20T03:28:31.801Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>众所周知，WeGame是马总研究出来坑钱并且拖慢英雄联盟加载速度的脑瘫软件。因此我们需要饶过Wegame加载，2021/10/19（渥太华时间）英雄联盟官网不提供纯净版下载（有个大病）。下面两个方法供大家参考干掉Wegame。</p><h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1. 打开英雄联盟文件夹下TCLS（腾讯拉**）文件夹，找到wegame_launch.tmp（可以用记事本打开）。修改参数为如下所示 LocalR=92 LastLoginMethod=1 即可。</span><br></pre></td></tr></table></figure><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2. 兄弟们看他鸭不爽直接淦，删除wegame_launch.ini和wegame_launch.tmp文件，删他娘的！！！</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>众所周知，WeGame是马总研究出来坑钱并且拖慢英雄联盟加载速度的脑瘫软件。因此我们需要饶过Wegame加载，2021/10/19（渥太华时间）英雄联盟官网不提供纯净版下载（有个大病）。下面两个方法供大家参考干掉Wegame。</p><h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">打开英雄联盟文件夹下TCLS（腾讯拉**）文件夹，找到wegame_launch.tmp（可以用记事本打开）。</span><br><span class="line">修改参数为如下所示 LocalR=92 LastLoginMethod=1 即可。</span><br></pre></td></tr></table></figure><p><img src="https://z3.ax1x.com/2021/10/20/5B9lTK.jpg"></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">兄弟们看他鸭不爽直接淦，删除wegame_launch.ini和wegame_launch.tmp文件，删他娘的！！！</span><br></pre></td></tr></table></figure><p><img src="https://z3.ax1x.com/2021/10/20/5BP4WF.jpg"></p>]]></content>
     
     
       
