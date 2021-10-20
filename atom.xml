@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-10-20T02:51:41.787Z</updated>
+  <updated>2021-10-20T02:56:32.725Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,20 +17,17 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>英雄联盟不加载Wegame方法</title>
+    <title>英雄联盟不加载WeGame方法</title>
     <link href="http://example.com/2021/10/19/Deny_Wegame/"/>
     <id>http://example.com/2021/10/19/Deny_Wegame/</id>
     <published>2021-10-20T02:44:15.000Z</published>
-    <updated>2021-10-20T02:51:41.787Z</updated>
+    <updated>2021-10-20T02:56:32.725Z</updated>
     
-    <content type="html"><![CDATA[<p>#前言</p><p>众所周知，Wegame是马总研究出来坑钱并且拖慢英雄联盟加载速度的脑瘫软件。因此我们需要饶过Wegame加载，2021/10/19（渥太华时间）英雄联盟官网不提供纯净版下载（有个大病）。下面两个方法供大家参考干掉Wegame。</p><ol><li>打开英雄联盟文件夹下TCLS（腾讯拉**）文件夹，找到wegame_launch.tmp（可以用记事本打开）。修改参数为如下所示 LocalR=92 LastLoginMethod=1 即可。</li></ol><span id="more"></span><ol start="2"><li>兄弟们看他鸭不爽直接淦，删除wegame_launch.ini和wegame_launch.tmp文件，删他娘的！！！</li></ol>]]></content>
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>众所周知，WeGame是马总研究出来坑钱并且拖慢英雄联盟加载速度的脑瘫软件。因此我们需要饶过Wegame加载，2021/10/19（渥太华时间）英雄联盟官网不提供纯净版下载（有个大病）。下面两个方法供大家参考干掉Wegame。</p><h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ 1. 打开英雄联盟文件夹下TCLS（腾讯拉**）文件夹，找到wegame_launch.tmp（可以用记事本打开）。修改参数为如下所示 LocalR=92 LastLoginMethod=1 即可。</span><br></pre></td></tr></table></figure><span id="more"></span><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ 2. 兄弟们看他鸭不爽直接淦，删除wegame_launch.ini和wegame_launch.tmp文件，删他娘的！！！</span><br></pre></td></tr></table></figure>]]></content>
     
     
-    <summary type="html">&lt;p&gt;#前言&lt;/p&gt;
-&lt;p&gt;众所周知，Wegame是马总研究出来坑钱并且拖慢英雄联盟加载速度的脑瘫软件。因此我们需要饶过Wegame加载，2021/10/19（渥太华时间）英雄联盟官网不提供纯净版下载（有个大病）。下面两个方法供大家参考干掉Wegame。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;打开英雄联盟文件夹下TCLS（腾讯拉**）文件夹，找到wegame_launch.tmp（可以用记事本打开）。修改参数为如下所示 LocalR=92 LastLoginMethod=1 即可。&lt;/li&gt;
-&lt;/ol&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;众所周知，WeGame是马总研究出来坑钱并且拖慢英雄联盟加载速度的脑瘫软件。因此我们需要饶过Wegame加载，2021/10/19（渥太华时间）英雄联盟官网不提供纯净版下载（有个大病）。下面两个方法供大家参考干掉Wegame。&lt;/p&gt;
+&lt;h2 id=&quot;解决方法&quot;&gt;&lt;a href=&quot;#解决方法&quot; class=&quot;headerlink&quot; title=&quot;解决方法&quot;&gt;&lt;/a&gt;解决方法&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ 1. 打开英雄联盟文件夹下TCLS（腾讯拉**）文件夹，找到wegame_launch.tmp（可以用记事本打开）。修改参数为如下所示 LocalR=92 LastLoginMethod=1 即可。&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
     
     
     
