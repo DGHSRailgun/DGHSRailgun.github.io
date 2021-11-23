@@ -3,7 +3,7 @@
   <entry>
     <title>Deny_Wegame</title>
     <url>/2021/10/19/Deny-Wegame/</url>
-    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>众所周知，WeGame是马总研究出来坑钱并且拖慢英雄联盟加载速度的脑瘫软件。因此我们需要饶过Wegame加载，2021/10/19（渥太华时间）英雄联盟官网不提供纯净版下载（有个大病）。下面两个方法供大家参考干掉Wegame。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="http://xxx/aplayer.min.css"><script src="http://xxx/aplayer.min.js" class="aplayer-secondary-script-marker"></script><script>var meting_api='http://xxx/api.php?server=:server&type=:type&id=:id&r=:r'</script><script class="meting-secondary-script-marker" src="http://xxx/Meing.min.js"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>众所周知，WeGame是马总研究出来坑钱并且拖慢英雄联盟加载速度的脑瘫软件。因此我们需要饶过Wegame加载，2021/10/19（渥太华时间）英雄联盟官网不提供纯净版下载（有个大病）。下面两个方法供大家参考干掉Wegame。</p>
 <h2 id="解决方法（2021-10-29腾讯强制更新，不好用了。。。。。。。）"><a href="#解决方法（2021-10-29腾讯强制更新，不好用了。。。。。。。）" class="headerlink" title="解决方法（2021/10/29腾讯强制更新，不好用了。。。。。。。）"></a>解决方法（2021/10/29腾讯强制更新，不好用了。。。。。。。）</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">打开英雄联盟文件夹下TCLS（腾讯拉**）文件夹，找到wegame_launch.tmp（可以用记事本打开）。</span><br><span class="line">修改参数为如下所示 LocalR=92 LastLoginMethod=1 即可。</span><br></pre></td></tr></table></figure>
 
 <p><img src="https://z3.ax1x.com/2021/10/20/5B9lTK.jpg"></p>
@@ -14,7 +14,7 @@
   <entry>
     <title>Hello World</title>
     <url>/2021/10/18/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="http://xxx/aplayer.min.css"><script src="http://xxx/aplayer.min.js" class="aplayer-secondary-script-marker"></script><script>var meting_api='http://xxx/api.php?server=:server&type=:type&id=:id&r=:r'</script><script class="meting-secondary-script-marker" src="http://xxx/Meing.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
