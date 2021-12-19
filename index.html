@@ -195,8 +195,17 @@
     </div>
     <div id="my-player" class="my-player" align="center">
         <iframe id="myiframe" src allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen="true"></iframe>
-    </div>     
-</div>
+    </div>
+    </div>
+        <form name="myform2" id="myform2">
+        上面不行试试这个(可以试试直接输入影视作品名字): <input type="text" name="fname" id="videoUrl2">
+        <input type="button" value="确定" onclick="getUrl2();" id="submitUrl2">
+        </form>
+        <h1>双击放大</h1>
+        <div id="my-player2" class="my-player2" align="center">
+        <iframe id="myiframe2" src allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen="true"></iframe>
+    </div>
+
 
 <script type="text/javascript">
     function getUrl(){
@@ -204,6 +213,13 @@
         var videoUrl = document.getElementById("videoUrl").value;
         var submitUrl = solutionUrl + videoUrl;
         document.getElementById("myiframe").src = submitUrl;
+        return submitUrl;
+    }
+    function getUrl2(){
+        var solutionUrl = "https://z1.m1907.cn/?jx=";
+        var videoUrl = document.getElementById("videoUrl2").value;
+        var submitUrl = solutionUrl + videoUrl;
+        document.getElementById("myiframe2").src = submitUrl;
         return submitUrl;
     }
 </script>
@@ -257,10 +273,10 @@
     <div class="article-entry" itemprop="articleBody">
        
   <h2 id="汀汀音乐"><a href="#汀汀音乐" class="headerlink" title="汀汀音乐"></a>汀汀音乐</h2><h3 id="英雄联盟S赛主题曲"><a href="#英雄联盟S赛主题曲" class="headerlink" title="英雄联盟S赛主题曲"></a>英雄联盟S赛主题曲</h3>
-    <div id="aplayer-zhnOrGaj" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="5118557250" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555"></div>
+    <div id="aplayer-KeMbbrib" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="5118557250" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555"></div>
 
 <h3 id="英雄联盟双城之战"><a href="#英雄联盟双城之战" class="headerlink" title="英雄联盟双城之战"></a>英雄联盟双城之战</h3>
-    <div id="aplayer-PUNTRLwL" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="8231729403" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555"></div> 
+    <div id="aplayer-DHiUlfHp" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="8231729403" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#555"></div> 
       <!-- reward -->
       
     </div>
