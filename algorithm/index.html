@@ -75,12 +75,12 @@
        
     <div class="article-entry" itemprop="articleBody">
        
-  <h2 id="Leetcode-223-Rectangle-Area"><a href="#Leetcode-223-Rectangle-Area" class="headerlink" title="Leetcode 223. Rectangle Area"></a>Leetcode 223. Rectangle Area</h2><p>Given the coordinates of two rectilinear rectangles in a 2D plane, return the total area covered by the two rectangles.</p>
+  <h2 id="Leetcode-223-Rectangle-Area"><a href="#Leetcode-223-Rectangle-Area" class="headerlink" title="Leetcode 223 Rectangle Area"></a>Leetcode 223 Rectangle Area</h2><p>Given the coordinates of two rectilinear rectangles in a 2D plane, return the total area covered by the two rectangles.</p>
 <p>The first rectangle is defined by its bottom-left corner (ax1, ay1) and its top-right corner (ax2, ay2).</p>
 <p>The second rectangle is defined by its bottom-left corner (bx1, by1) and its top-right corner (bx2, by2).</p>
-<p>Example:</p>
+<p><strong>Example:</strong></p>
 <p><img src="https://assets.leetcode.com/uploads/2021/05/08/rectangle-plane.png"></p>
-<p>Solution (Java):</p>
+<p><strong>Solution (Java):</strong></p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">public class leetcode_223 &#123;</span><br><span class="line">    public int computeArea(int ax1, int ay1, int ax2, int ay2, int bx1, int by1, int bx2, int by2) &#123;</span><br><span class="line">        int absX1 = Math.abs(ax1 - ax2);</span><br><span class="line">        int absY1 = Math.abs(ay1 - ay2);</span><br><span class="line"></span><br><span class="line">        int absX2 = Math.abs(bx1 - bx2);</span><br><span class="line">        int absY2 = Math.abs(by1 - by2);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> (ax2 &lt;= bx1 || ax1 &gt;= bx2) <span class="built_in">return</span> absX1 * absY1 + absX2 * absY2;// x轴不重叠</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> (ay2 &lt;= by1 || ay1 &gt;= by2) <span class="built_in">return</span> absX1 * absY1 + absX2 * absY2;// y轴不重叠</span><br><span class="line"></span><br><span class="line">        int x = Math.min(ax2, bx2) - Math.max(ax1, bx1);</span><br><span class="line">        int y = Math.min(ay2, by2) - Math.max(ay1, by1);</span><br><span class="line">        <span class="built_in">return</span> absX1 * absY1 + absX2 * absY2 - x * y;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure> 
       <!-- reward -->
       
